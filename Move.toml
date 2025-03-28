@@ -1,0 +1,15 @@
+[package]
+name = "Gamified-blockchain-simulation-labs"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0xf45d6d24951fa02b65d61b3dcf695b486dbbd64bf27d497ca46e5c06a7ca0dd2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
